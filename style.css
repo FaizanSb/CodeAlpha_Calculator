@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+    background-color: black;
+    color: #4fd1c5;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    margin: 5px auto;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);
+
+}
+
+body {
+    background-color: #c3cee5;
+    margin: 0;
+    padding: 20px;
+
+}
+
+.main {
+    background-color: #1e1e2f;
+    height: 75vh;
+    width: 30vw;
+    border: none;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.main .screen {
+    height: 25%;
+    width: 99%;
+    background-color: #2c2c3c;
+    margin: 5px auto;
+    border: 5px solid #00c896;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2.8rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 15px;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    border-radius: 10px;
+}
+
+.main .buttons {
+    background-color: #28293d;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    height: 73%;
+    border-radius: inherit;
+    padding: 10px;
+    gap: 10px;
+}
+
+.main .buttons .btn {
+    background-color: #3c3e56;
+    color: #ffffff;
+    height: 55px;
+    width: 70px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.main .buttons .btn:hover {
+    background-color: #4fd1c5;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+@media screen and (max-width:1100px) {
+    .heading{
+        width: 100vw;
+    }
+    .main {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .main {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .main {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width:445px) {
+    .main {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .main {
+        width: 98vw;
+    }
+}
