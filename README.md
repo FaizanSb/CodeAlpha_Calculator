@@ -66,5 +66,6 @@ Add scientific operations (square root, power, trigonometry)
 Add keyboard input support
 
 👨‍💻 Author
+
 Muhammad Faizan
 Internship Task Project
