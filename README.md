@@ -68,6 +68,5 @@ Add keyboard input support
 👨‍💻 Author
 Muhammad Faizan
 Internship Task Project
-
-uhammad Faizan
+Internship Task Projectuhammad Faizan
 Internship Task Project
